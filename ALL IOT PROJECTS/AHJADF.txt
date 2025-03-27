@@ -1,0 +1,7 @@
+for (int a=0; a<15; a++)
+{
+  lcd.setCursor(4,2);
+  lcd.print("TANMAY SIR");
+  lcd.scrollDisplayLeft();
+  delay(1000);
+}
